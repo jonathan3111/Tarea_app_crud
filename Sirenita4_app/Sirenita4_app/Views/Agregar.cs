@@ -16,7 +16,7 @@ namespace Sirenita4_app.Views
         private Entry _apellidoEntry;
         private Entry _correoEntry;
         private Entry _telefonoEntry;
-        private Entry _cantidadEntry;
+        private Entry _edadEntry;
         private Entry _horaEntry;
         private Button _guardarButton;
 
@@ -49,15 +49,12 @@ namespace Sirenita4_app.Views
             _telefonoEntry.Placeholder = "Ingrese su telefono";
             stackLayout.Children.Add(_telefonoEntry);
 
-            _cantidadEntry = new Entry();
-            _cantidadEntry.Keyboard = Keyboard.Text;
-            _cantidadEntry.Placeholder = "Ingrese la cantidad de personas";
-            stackLayout.Children.Add(_cantidadEntry);
+            _edadEntry = new Entry();
+            _edadEntry.Keyboard = Keyboard.Text;
+            _edadEntry.Placeholder = "Ingrese su edad";
+            stackLayout.Children.Add(_edadEntry);
 
-            _horaEntry = new Entry();
-            _horaEntry.Keyboard = Keyboard.Text;
-            _horaEntry.Placeholder = "Ingrese la hora";
-            stackLayout.Children.Add(_horaEntry);
+      
 
             _guardarButton = new Button();
             _guardarButton.Text = "Agregar";
@@ -82,8 +79,8 @@ namespace Sirenita4_app.Views
                 Apellidos = _apellidoEntry.Text,
                 correo = _correoEntry.Text,
                 telefono = Convert.ToInt32(_telefonoEntry.Text),
-                cantidad_p = Convert.ToInt32(_cantidadEntry.Text),
-                hora = _horaEntry.Text,
+                edad = Convert.ToInt32(_edadEntry.Text),
+                
             };
             db.Insert(agregar);
             await DisplayAlert(null, "Guardado", "ok");

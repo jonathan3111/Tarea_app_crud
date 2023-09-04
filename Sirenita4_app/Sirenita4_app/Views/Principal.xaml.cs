@@ -18,7 +18,7 @@ namespace Sirenita4_app.Views
 
         private void btnregistro_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Agregar());
+            Navigation.PushAsync(new Agregar2());
 
         }
 

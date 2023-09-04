@@ -13,12 +13,12 @@ namespace Sirenita4_app.Models
         public string Apellidos { get; set;}
         public string correo { get; set; }
         public int telefono { get; set; }
-        public int cantidad_p {  get; set; }
-        public string hora { get; set; }
+        public int edad {  get; set; }
+       
 
         public override string ToString()
         {
-            return this.nombre + "\n" + this.Apellidos + "\n" + this.correo + "\n" + this.telefono + "\n" + this.cantidad_p + "\n" + this.hora;
+            return this.nombre + "\n" + this.Apellidos + "\n" + this.correo + "\n" + this.telefono + "\n" + this.edad;
         }
     }
 }

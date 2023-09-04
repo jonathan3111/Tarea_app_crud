@@ -15,7 +15,7 @@ namespace Sirenita4_app.Views
 
             StackLayout stackLayout = new StackLayout();
             Button button = new Button();
-            button.Text = "Registro";
+            button.Text = "Registrar cliente";
             button.Clicked += Button_Clicked;
             stackLayout.Children.Add(button);
 

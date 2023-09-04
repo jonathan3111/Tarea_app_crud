@@ -16,7 +16,7 @@
            HasShadow="False">
             <StackLayout VerticalOptions="Center"
                      Spacing="20">
-                <Button Text="Reserva"
+                <Button Text="Cliente"
                     TextTransform="None"
                     BackgroundColor="Aqua"
                     CornerRadius="10"
