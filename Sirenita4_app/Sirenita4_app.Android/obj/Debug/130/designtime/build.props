@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638292019662658990
+_nugetassetstimestamp=638294609822185852
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\usuario\source\repos\sirenita4_app\sirenita4_app\sirenita4_app.android\sirenita4_app.android.csproj
+projectfullpath=c:\users\academico\source\repos\tarea_app_crud\sirenita4_app\sirenita4_app.android\sirenita4_app.android.csproj
